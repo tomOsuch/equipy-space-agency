@@ -5,7 +5,8 @@
                 <p>Id: {{ctrl.asset.id}}</p>
                 <p>Nazwa: {{ctrl.asset.name}}</p>
                 <p>Opis: {{ctrl.asset.description}}</p>
-                <p>Numer seryjny: {{ctrl.asset.serialNumber}}</p>
+                <p>Cena: {{ctrl.asset.price}}</p>
+                <p>Numer Seryjny: {{ctrl.asset.serialNumber}}</p>
                 <p ng-if="!ctrl.assigned" class="text-success">Dostępne</p>
                 <p ng-if="ctrl.assigned" class="text-danger">Wypożyczone</p>
             </div>
